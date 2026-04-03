@@ -4,7 +4,7 @@ import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 export class Link {
     //Định danh theo ID
     @PrimaryGeneratedColumn('uuid')
-    id: number;
+    id: string;
 
     @Column({unique: true})
     name: string;
