@@ -1,6 +1,6 @@
 import { Controller, Get, Param, NotFoundException, Res } from '@nestjs/common';
 import express from 'express';
-import { LinksService } from 'src/links/links.service';
+import { LinksService } from '../links/links.service';
 
 @Controller()
 export class WildcardController {
